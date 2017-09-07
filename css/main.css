@@ -1,3 +1,47 @@
+/**********************
+Global Style
+**********************/
+
 * {
     box-sizing: border-box;
+}
+
+html body {
+    background-color: ghostwhite;
+}
+
+.icons {
+    height: 40px;
+}
+
+.button {
+    text-align: center;
+    height: 100%;
+    vertical-align: center;
+    display: inline-flex;
+    font-size: 2rem;
+    color: black;
+    
+}
+/**********************
+NavBarView
+**********************/
+
+
+/**********************
+HomeView
+**********************/
+#landing {
+    height: 100vh;
+
+}
+
+#statusArea {
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+#portfolio {
+    height: 100vh;
+
 }

@@ -7,7 +7,7 @@ app.config( ($routeProvider) => {
 
     $routeProvider
     .when('/', {
-        templateUrl: '/partials/homeView.html',
+        templateUrl: 'partials/HomeView.html',
         controller: 'HomeViewCtrl'
     })
     .otherwise('/');
