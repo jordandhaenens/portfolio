@@ -15,11 +15,12 @@ html body {
 }
 
 .button {
+    display: block;
     text-align: center;
     height: 100%;
-    vertical-align: center;
-    display: inline-flex;
+    margin: 0 auto;
     font-size: 2rem;
+    background-color: aqua;
     color: black;
     
 }
